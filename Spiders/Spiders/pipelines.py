@@ -7,7 +7,7 @@
 import MySQLdb
 import MySQLdb.cursors
 from twisted.enterprise import adbapi
-from lianjia import items
+from Spiders import items
 from scrapy.exporters import JsonItemExporter
 import codecs
 import json

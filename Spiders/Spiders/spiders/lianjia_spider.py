@@ -2,7 +2,7 @@
 import scrapy
 import re
 from scrapy.http import Request
-from lianjia.items import LianjiaItem
+from Spiders.items import LianjiaItem
 class LianjiaSpiderSpider(scrapy.Spider):
     name = 'lianjia_spider'
     allowed_domains = ['sz.fang.lianjia.com']
