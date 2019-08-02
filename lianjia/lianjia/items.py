@@ -43,3 +43,7 @@ class QingsongItem(scrapy.Item):
         return insert_sql,params
 
 
+class ThyroidBarItem(scrapy.Item):
+    image_urls = scrapy.Field()
+    image_path = scrapy.Field()
+

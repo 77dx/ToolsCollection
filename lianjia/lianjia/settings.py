@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+import os
 # Scrapy settings for lianjia project
 #
 # For simplicity, this file contains only settings considered important or
@@ -64,11 +64,16 @@ ROBOTSTXT_OBEY = True
 
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
+ROBOTSTXT_OBEY = False
+MEDIA_ALLOW_REDIRECTS = True
+IMAGES_STORE = 'E:\\baidubar_image'
 ITEM_PIPELINES = {
-   'lianjia.pipelines.LianjiaPipeline': 300,
-   'lianjia.pipelines.JsonExporterPipleline':2
+   # 'lianjia.pipelines.LianjiaPipeline': 300,
+   # 'lianjia.pipelines.JsonExporterPipleline':2,
+   'lianjia.pipelines.ImageDownloadPipeline':400
 }
-
+IMAGES_URLS_FIELD = 'image_urls'
+IMAGES_RESULT_FIELD = "image_path"
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://doc.scrapy.org/en/latest/topics/autothrottle.html
 #AUTOTHROTTLE_ENABLED = True

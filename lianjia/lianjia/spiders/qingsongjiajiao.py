@@ -2,7 +2,7 @@
 import scrapy
 import re
 from scrapy import Request
-from Spiders.items import QingsongItem
+from lianjia.items import QingsongItem
 
 class QingsongjiajiaoSpider(scrapy.Spider):
     name = 'qingsongjiajiao'

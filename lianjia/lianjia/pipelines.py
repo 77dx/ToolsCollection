@@ -6,11 +6,14 @@
 # See: https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 import MySQLdb
 import MySQLdb.cursors
+from scrapy.exceptions import DropItem
 from twisted.enterprise import adbapi
-from Spiders import items
+from lianjia import items
 from scrapy.exporters import JsonItemExporter
 import codecs
 import json
+from scrapy.pipelines.images import ImagesPipeline
+from scrapy import Request
 
 class LianjiaPipeline(object):
     def process_item(self, item, spider):
@@ -19,7 +22,7 @@ class LianjiaPipeline(object):
 
 class JsonExporterPipleline(object):
     def __init__(self):
-        self.file = open('stu_comments.json','wb')
+        self.file = open('url.json','wb')
         self.exporter = JsonItemExporter(self.file,encoding='utf-8',ensure_ascii=False)
         self.exporter.start_exporting()
 
@@ -82,3 +85,18 @@ class MysqlTwistedPipeline(object):
         # 执行具体的插入
         insert_sql, params = item.get_insert_sql()
         cursor.execute(insert_sql, params)
+
+
+class ImageDownloadPipeline(ImagesPipeline):
+
+    def get_media_requests(self, item, info):
+        for image_url in item['image_urls']:
+            yield Request(image_url)
+
+
+    def item_completed(self, results, item, info):
+        image_path = [x['path'] for ok, x in results if ok]
+        if not image_path:
+            raise DropItem("Item contains no images")
+        item['image_path'] = image_path
+        return item
