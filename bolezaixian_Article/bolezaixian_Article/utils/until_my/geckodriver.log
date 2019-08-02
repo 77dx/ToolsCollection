@@ -1,0 +1,260 @@
+1526284075440	geckodriver	INFO	geckodriver 0.19.1
+1526284075447	geckodriver	INFO	Listening on 127.0.0.1:47819
+1526284078527	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.6NLw7ddYk8MZ"
+1526284078787	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///D:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1526284079102	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 2768] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 11976] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11976] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1526284080208	Marionette	INFO	Listening on port 47831
+1526284080624	Marionette	WARN	TLS certificate errors will be ignored for this session
+1526284080658	Marionette	DEBUG	Register listener.js for window 6442450945
+1526284080681	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1526284081073	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1526284081073	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1526284081859	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://sz.lianjia.com/?utm_source=baidu&utm_medium=pinzhuan&utm_term=biaoti&utm_content=biaotimiaoshu&utm_campaign=sousuo"
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: https://static-ssl.mediav.com/mv.js, line 1: unreachable code after return statement
+1526284083326	Marionette	DEBUG	Received DOM event "pageshow" for "https://sz.lianjia.com/?utm_source=baidu&utm_medium=pinzhuan&utm_term=biaoti&utm_content=biaotimiaoshu&utm_campaign=sousuo"
+1526284083595	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1526284083620	Marionette	DEBUG	Received DOM event "beforeunload" for "https://sz.lianjia.com/?utm_source=baidu&utm_medium=pinzhuan&utm_term=biaoti&utm_content=biaotimiaoshu&utm_campaign=sousuo"
+1526284083627	Marionette	DEBUG	Received DOM event "beforeunload" for "https://sz.lianjia.com/?utm_source=baidu&utm_medium=pinzhuan&utm_term=biaoti&utm_content=biaotimiaoshu&utm_campaign=sousuo"
+1526284084312	Marionette	DEBUG	Received DOM event "pagehide" for "https://sz.lianjia.com/?utm_source=baidu&utm_medium=pinzhuan&utm_term=biaoti&utm_content=biaotimiaoshu&utm_campaign=sousuo"
+1526284084315	Marionette	DEBUG	Received DOM event "unload" for "https://sz.lianjia.com/?utm_source=baidu&utm_medium=pinzhuan&utm_term=biaoti&utm_content=biaotimiaoshu&utm_campaign=sousuo"
+1526284084690	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://sz.fang.lianjia.com/loupan/rs/"
+JavaScript warning: https://static-ssl.mediav.com/mv.js, line 1: unreachable code after return statement
+1526284087335	Marionette	DEBUG	Received DOM event "pageshow" for "https://sz.fang.lianjia.com/loupan/rs/"
+[Child 10624] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10624] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10100] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10100] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 7296] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1526284204941	geckodriver	INFO	geckodriver 0.19.1
+1526284204948	geckodriver	INFO	Listening on 127.0.0.1:48145
+1526284208030	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.W1HtXtSIi2Qg"
+1526284208644	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///D:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1526284208979	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 11856] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11856] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1526284210062	Marionette	INFO	Listening on port 48157
+1526284211138	Marionette	WARN	TLS certificate errors will be ignored for this session
+1526284211177	Marionette	DEBUG	Register listener.js for window 6442450945
+1526284211204	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1526284211741	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1526284211742	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1526284213526	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://sz.lianjia.com/?utm_source=baidu&utm_medium=pinzhuan&utm_term=biaoti&utm_content=biaotimiaoshu&utm_campaign=sousuo"
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: https://static-ssl.mediav.com/mv.js, line 1: unreachable code after return statement
+1526284215032	Marionette	DEBUG	Received DOM event "pageshow" for "https://sz.lianjia.com/?utm_source=baidu&utm_medium=pinzhuan&utm_term=biaoti&utm_content=biaotimiaoshu&utm_campaign=sousuo"
+1526284215310	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1526284215339	Marionette	DEBUG	Received DOM event "beforeunload" for "https://sz.lianjia.com/?utm_source=baidu&utm_medium=pinzhuan&utm_term=biaoti&utm_content=biaotimiaoshu&utm_campaign=sousuo"
+1526284215345	Marionette	DEBUG	Received DOM event "beforeunload" for "https://sz.lianjia.com/?utm_source=baidu&utm_medium=pinzhuan&utm_term=biaoti&utm_content=biaotimiaoshu&utm_campaign=sousuo"
+1526284216015	Marionette	DEBUG	Received DOM event "pagehide" for "https://sz.lianjia.com/?utm_source=baidu&utm_medium=pinzhuan&utm_term=biaoti&utm_content=biaotimiaoshu&utm_campaign=sousuo"
+1526284216020	Marionette	DEBUG	Received DOM event "unload" for "https://sz.lianjia.com/?utm_source=baidu&utm_medium=pinzhuan&utm_term=biaoti&utm_content=biaotimiaoshu&utm_campaign=sousuo"
+1526284216387	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://sz.fang.lianjia.com/loupan/rs/"
+JavaScript warning: https://static-ssl.mediav.com/mv.js, line 1: unreachable code after return statement
+1526284218718	Marionette	DEBUG	Received DOM event "pageshow" for "https://sz.fang.lianjia.com/loupan/rs/"
+[Child 12052] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12052] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 11968] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11968] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+1526284687920	geckodriver	INFO	geckodriver 0.19.1
+1526284687928	geckodriver	INFO	Listening on 127.0.0.1:49217
+1526284691010	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.7LSY6dPthlaG"
+1526284691630	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///D:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1526284691992	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8976] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8976] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1526284693490	Marionette	INFO	Listening on port 49233
+1526284694128	Marionette	WARN	TLS certificate errors will be ignored for this session
+1526284694184	Marionette	DEBUG	Register listener.js for window 6442450945
+1526284694208	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1526284694706	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1526284694706	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1526284695579	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://sz.lianjia.com/?utm_source=baidu&utm_medium=pinzhuan&utm_term=biaoti&utm_content=biaotimiaoshu&utm_campaign=sousuo"
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: https://static-ssl.mediav.com/mv.js, line 1: unreachable code after return statement
+1526284696933	Marionette	DEBUG	Received DOM event "pageshow" for "https://sz.lianjia.com/?utm_source=baidu&utm_medium=pinzhuan&utm_term=biaoti&utm_content=biaotimiaoshu&utm_campaign=sousuo"
+1526284697212	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1526284697252	Marionette	DEBUG	Received DOM event "beforeunload" for "https://sz.lianjia.com/?utm_source=baidu&utm_medium=pinzhuan&utm_term=biaoti&utm_content=biaotimiaoshu&utm_campaign=sousuo"
+1526284697261	Marionette	DEBUG	Received DOM event "beforeunload" for "https://sz.lianjia.com/?utm_source=baidu&utm_medium=pinzhuan&utm_term=biaoti&utm_content=biaotimiaoshu&utm_campaign=sousuo"
+1526284697940	Marionette	DEBUG	Received DOM event "pagehide" for "https://sz.lianjia.com/?utm_source=baidu&utm_medium=pinzhuan&utm_term=biaoti&utm_content=biaotimiaoshu&utm_campaign=sousuo"
+1526284697947	Marionette	DEBUG	Received DOM event "unload" for "https://sz.lianjia.com/?utm_source=baidu&utm_medium=pinzhuan&utm_term=biaoti&utm_content=biaotimiaoshu&utm_campaign=sousuo"
+1526284698298	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://sz.fang.lianjia.com/loupan/rs/"
+JavaScript warning: https://static-ssl.mediav.com/mv.js, line 1: unreachable code after return statement
+1526284700578	Marionette	DEBUG	Received DOM event "pageshow" for "https://sz.fang.lianjia.com/loupan/rs/"
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 11448] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11448] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+1526285328420	geckodriver	INFO	geckodriver 0.19.1
+1526285328427	geckodriver	INFO	Listening on 127.0.0.1:50381
+1526285331527	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.hgLPZXR4qg7u"
+1526285332076	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///D:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1526285332397	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10044] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10044] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1526285333549	Marionette	INFO	Listening on port 50396
+1526285334649	Marionette	WARN	TLS certificate errors will be ignored for this session
+1526285334718	Marionette	DEBUG	Register listener.js for window 6442450945
+1526285334749	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1526285335252	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1526285335252	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1526285336139	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://sz.lianjia.com/?utm_source=baidu&utm_medium=pinzhuan&utm_term=biaoti&utm_content=biaotimiaoshu&utm_campaign=sousuo"
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: https://static-ssl.mediav.com/mv.js, line 1: unreachable code after return statement
+1526285339021	Marionette	DEBUG	Received DOM event "pageshow" for "https://sz.lianjia.com/?utm_source=baidu&utm_medium=pinzhuan&utm_term=biaoti&utm_content=biaotimiaoshu&utm_campaign=sousuo"
+1526285339292	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1526285339316	Marionette	DEBUG	Received DOM event "beforeunload" for "https://sz.lianjia.com/?utm_source=baidu&utm_medium=pinzhuan&utm_term=biaoti&utm_content=biaotimiaoshu&utm_campaign=sousuo"
+1526285339321	Marionette	DEBUG	Received DOM event "beforeunload" for "https://sz.lianjia.com/?utm_source=baidu&utm_medium=pinzhuan&utm_term=biaoti&utm_content=biaotimiaoshu&utm_campaign=sousuo"
+1526285340005	Marionette	DEBUG	Received DOM event "pagehide" for "https://sz.lianjia.com/?utm_source=baidu&utm_medium=pinzhuan&utm_term=biaoti&utm_content=biaotimiaoshu&utm_campaign=sousuo"
+1526285340010	Marionette	DEBUG	Received DOM event "unload" for "https://sz.lianjia.com/?utm_source=baidu&utm_medium=pinzhuan&utm_term=biaoti&utm_content=biaotimiaoshu&utm_campaign=sousuo"
+1526285340351	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://sz.fang.lianjia.com/loupan/rs/"
+JavaScript warning: https://static-ssl.mediav.com/mv.js, line 1: unreachable code after return statement
+1526285342916	Marionette	DEBUG	Received DOM event "pageshow" for "https://sz.fang.lianjia.com/loupan/rs/"
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 10560] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 10560] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9120] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9120] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10372] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 11776] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+< startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///D:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1526285470954	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 792] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 792] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1526285472636	Marionette	INFO	Listening on port 50766
+1526285473217	Marionette	WARN	TLS certificate errors will be ignored for this session
+1526285473342	Marionette	DEBUG	Register listener.js for window 6442450945
+1526285473366	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1526285473738	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1526285473738	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1526285474501	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://sz.lianjia.com/?utm_source=baidu&utm_medium=pinzhuan&utm_term=biaoti&utm_content=biaotimiaoshu&utm_campaign=sousuo"
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: https://static-ssl.mediav.com/mv.js, line 1: unreachable code after return statement
+1526285476004	Marionette	DEBUG	Received DOM event "pageshow" for "https://sz.lianjia.com/?utm_source=baidu&utm_medium=pinzhuan&utm_term=biaoti&utm_content=biaotimiaoshu&utm_campaign=sousuo"
+1526285476266	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1526285476292	Marionette	DEBUG	Received DOM event "beforeunload" for "https://sz.lianjia.com/?utm_source=baidu&utm_medium=pinzhuan&utm_term=biaoti&utm_content=biaotimiaoshu&utm_campaign=sousuo"
+1526285476297	Marionette	DEBUG	Received DOM event "beforeunload" for "https://sz.lianjia.com/?utm_source=baidu&utm_medium=pinzhuan&utm_term=biaoti&utm_content=biaotimiaoshu&utm_campaign=sousuo"
+1526285477010	Marionette	DEBUG	Received DOM event "pagehide" for "https://sz.lianjia.com/?utm_source=baidu&utm_medium=pinzhuan&utm_term=biaoti&utm_content=biaotimiaoshu&utm_campaign=sousuo"
+1526285477013	Marionette	DEBUG	Received DOM event "unload" for "https://sz.lianjia.com/?utm_source=baidu&utm_medium=pinzhuan&utm_term=biaoti&utm_content=biaotimiaoshu&utm_campaign=sousuo"
+1526285477376	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://sz.fang.lianjia.com/loupan/rs/"
+JavaScript warning: https://static-ssl.mediav.com/mv.js, line 1: unreachable code after return statement
+1526285479447	Marionette	DEBUG	Received DOM event "pageshow" for "https://sz.fang.lianjia.com/loupan/rs/"
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 1484] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12332] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 4684] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+tallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///D:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1526285557613	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 13280] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 12400] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12400] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1526285559544	Marionette	INFO	Listening on port 51056
+1526285559924	Marionette	WARN	TLS certificate errors will be ignored for this session
+1526285559986	Marionette	DEBUG	Register listener.js for window 6442450945
+1526285560009	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1526285560517	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1526285560518	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1526285561351	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://sz.lianjia.com/?utm_source=baidu&utm_medium=pinzhuan&utm_term=biaoti&utm_content=biaotimiaoshu&utm_campaign=sousuo"
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: https://static-ssl.mediav.com/mv.js, line 1: unreachable code after return statement
+1526285564384	Marionette	DEBUG	Received DOM event "pageshow" for "https://sz.lianjia.com/?utm_source=baidu&utm_medium=pinzhuan&utm_term=biaoti&utm_content=biaotimiaoshu&utm_campaign=sousuo"
+1526285564726	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1526285564765	Marionette	DEBUG	Received DOM event "beforeunload" for "https://sz.lianjia.com/?utm_source=baidu&utm_medium=pinzhuan&utm_term=biaoti&utm_content=biaotimiaoshu&utm_campaign=sousuo"
+1526285564772	Marionette	DEBUG	Received DOM event "beforeunload" for "https://sz.lianjia.com/?utm_source=baidu&utm_medium=pinzhuan&utm_term=biaoti&utm_content=biaotimiaoshu&utm_campaign=sousuo"
+1526285565746	Marionette	DEBUG	Received DOM event "pagehide" for "https://sz.lianjia.com/?utm_source=baidu&utm_medium=pinzhuan&utm_term=biaoti&utm_content=biaotimiaoshu&utm_campaign=sousuo"
+1526285565752	Marionette	DEBUG	Received DOM event "unload" for "https://sz.lianjia.com/?utm_source=baidu&utm_medium=pinzhuan&utm_term=biaoti&utm_content=biaotimiaoshu&utm_campaign=sousuo"
+1526285566248	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://sz.fang.lianjia.com/loupan/rs/"
+JavaScript warning: https://static-ssl.mediav.com/mv.js, line 1: unreachable code after return statement
+1526285568149	Marionette	DEBUG	Received DOM event "pageshow" for "https://sz.fang.lianjia.com/loupan/rs/"
+1526285568536	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+[Parent 13280] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 12888] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12888] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1284] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1284] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 9612] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1526285632636	geckodriver	INFO	geckodriver 0.19.1
+1526285632644	geckodriver	INFO	Listening on 127.0.0.1:51383
+1526285635711	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.oNIdTmG2Ecep"
+1526285636282	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///D:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1526285636607	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9632] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9632] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1526285637733	Marionette	INFO	Listening on port 51395
+1526285638828	Marionette	WARN	TLS certificate errors will be ignored for this session
+1526285638889	Marionette	DEBUG	Register listener.js for window 6442450945
+1526285638922	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1526285639421	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1526285639422	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1526285640213	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://sz.lianjia.com/?utm_source=baidu&utm_medium=pinzhuan&utm_term=biaoti&utm_content=biaotimiaoshu&utm_campaign=sousuo"
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: https://static-ssl.mediav.com/mv.js, line 1: unreachable code after return statement
+1526285643081	Marionette	DEBUG	Received DOM event "pageshow" for "https://sz.lianjia.com/?utm_source=baidu&utm_medium=pinzhuan&utm_term=biaoti&utm_content=biaotimiaoshu&utm_campaign=sousuo"
+1526285643390	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1526285643458	Marionette	DEBUG	Received DOM event "beforeunload" for "https://sz.lianjia.com/?utm_source=baidu&utm_medium=pinzhuan&utm_term=biaoti&utm_content=biaotimiaoshu&utm_campaign=sousuo"
+1526285643469	Marionette	DEBUG	Received DOM event "beforeunload" for "https://sz.lianjia.com/?utm_source=baidu&utm_medium=pinzhuan&utm_term=biaoti&utm_content=biaotimiaoshu&utm_campaign=sousuo"
+1526285644141	Marionette	DEBUG	Received DOM event "pagehide" for "https://sz.lianjia.com/?utm_source=baidu&utm_medium=pinzhuan&utm_term=biaoti&utm_content=biaotimiaoshu&utm_campaign=sousuo"
+1526285644146	Marionette	DEBUG	Received DOM event "unload" for "https://sz.lianjia.com/?utm_source=baidu&utm_medium=pinzhuan&utm_term=biaoti&utm_content=biaotimiaoshu&utm_campaign=sousuo"
+1526285644500	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://sz.fang.lianjia.com/loupan/rs/"
+JavaScript warning: https://static-ssl.mediav.com/mv.js, line 1: unreachable code after return statement
+1526285646569	Marionette	DEBUG	Received DOM event "pageshow" for "https://sz.fang.lianjia.com/loupan/rs/"
+1526285646988	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+[Child 11432] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Child 11432] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11432] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10948] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10948] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 12480] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
