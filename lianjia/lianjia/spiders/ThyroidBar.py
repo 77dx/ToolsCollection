@@ -8,10 +8,11 @@ from lianjia.items import ThyroidBarItem
 class ThyroidbarSpider(scrapy.Spider):
     name = 'ThyroidBar'
     allowed_domains = ['http://tieba.baidu.com']
-    kw = "甲状腺"
+    kw = "周星驰"
     start_urls = ['http://tieba.baidu.com/f?kw='+kw+'&ie=utf-8&tab=main/']
 
     def parse(self, response):
+        i = 1
         all_urls = response.css("a::attr(href)").extract()
 
         for url in all_urls:
@@ -21,9 +22,13 @@ class ThyroidbarSpider(scrapy.Spider):
                 # print(request_url)
                 yield Request(request_url, callback=self.parse_detail)
 
-        next_url = "http://tieba.baidu.com" + response.css(".next pagination-item::attr(href)").extract_first("")
+
+        next_url = "http://tieba.baidu.com/f?kw=%E5%91%A8%E6%98%9F%E9%A9%B0&ie=utf-8" + response.xpath('//a[contains(text(),"下一页")]/@href').extract_first("")
+
         if next_url:
             yield Request(url=next_url, callback=self.parse)
+
+        pass
 
     def parse_detail(self, response):
 

@@ -74,6 +74,7 @@ ITEM_PIPELINES = {
 }
 IMAGES_URLS_FIELD = 'image_urls'
 IMAGES_RESULT_FIELD = "image_path"
+IMAGES_EXPIRES = 90
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://doc.scrapy.org/en/latest/topics/autothrottle.html
 #AUTOTHROTTLE_ENABLED = True
