@@ -22,7 +22,7 @@ class LianjiaPipeline(object):
 
 class JsonExporterPipleline(object):
     def __init__(self):
-        self.file = open('url.json','wb')
+        self.file = open('douban.json','wb')
         self.exporter = JsonItemExporter(self.file,encoding='utf-8',ensure_ascii=False)
         self.exporter.start_exporting()
 
@@ -33,6 +33,21 @@ class JsonExporterPipleline(object):
     def process_item(self,item,spider):
         self.exporter.export_item(item)
 
+        return item
+from openpyxl import Workbook
+
+class DoubanMoivePipeline(object):
+
+    def __int__(self):
+        self.wb = Workbook()
+        self.ws = self.wb.active
+        self.ws .append(['对评论的支持数量', '时间', '影片得分', '评论'])  # 设置表头
+
+    def process_item(self, item, spider):
+        # 将数据写入表格当中
+        line = [item['vote'], item['time'], item['goal'], item['comment']]
+        self.ws.apend(line)
+        self.wb.save('douban_movie_comment.xlsx', as_template=False)
         return item
 
 

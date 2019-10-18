@@ -12,7 +12,8 @@ import os
 # execute(["scrapy","crawl","lianjia_spider"])
 # execute(["scrapy","crawl","lagou_spider"])
 # execute(["scrapy","crawl","qingsongjiajiao"])
-execute(["scrapy","crawl","ThyroidBar"])
+# execute(["scrapy","crawl","ThyroidBar"])
+execute(["scrapy","crawl","DoubanSpider"])
 
 
 

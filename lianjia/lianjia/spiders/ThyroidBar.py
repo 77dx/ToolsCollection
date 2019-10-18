@@ -8,7 +8,7 @@ from lianjia.items import ThyroidBarItem
 class ThyroidbarSpider(scrapy.Spider):
     name = 'ThyroidBar'
     allowed_domains = ['http://tieba.baidu.com']
-    kw = "周星驰"
+    kw = "甲状腺"
     start_urls = ['http://tieba.baidu.com/f?kw='+kw+'&ie=utf-8&tab=main/']
 
     def parse(self, response):
@@ -23,7 +23,7 @@ class ThyroidbarSpider(scrapy.Spider):
                 yield Request(request_url, callback=self.parse_detail)
 
 
-        next_url = "http://tieba.baidu.com/f?kw=%E5%91%A8%E6%98%9F%E9%A9%B0&ie=utf-8" + response.xpath('//a[contains(text(),"下一页")]/@href').extract_first("")
+        next_url = "http://tieba.baidu.com/f?kw=%BC%D7%D7%B4%CF%D9&ie=utf-8" + response.xpath('//a[contains(text(),"下一页")]/@href').extract_first("")
 
         if next_url:
             yield Request(url=next_url, callback=self.parse)

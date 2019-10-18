@@ -47,3 +47,10 @@ class ThyroidBarItem(scrapy.Item):
     image_urls = scrapy.Field()
     image_path = scrapy.Field()
 
+
+class DoubanItem(scrapy.Item):
+    vote = scrapy.Field()
+    time = scrapy.Field()
+    goal = scrapy.Field()
+    comment = scrapy.Field()
+

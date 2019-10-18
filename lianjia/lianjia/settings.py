@@ -22,7 +22,7 @@ NEWSPIDER_MODULE = 'lianjia.spiders'
 ROBOTSTXT_OBEY = True
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
-#CONCURRENT_REQUESTS = 32
+CONCURRENT_REQUESTS = 32
 
 # Configure a delay for requests for the same website (default: 0)
 # See https://doc.scrapy.org/en/latest/topics/settings.html#download-delay
@@ -43,7 +43,7 @@ ROBOTSTXT_OBEY = True
 #   'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
 #   'Accept-Language': 'en',
 #}
-
+USER_AGENT = 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-us) AppleWebKit/534.50 (KHTML, like Gecko) Version/5.1 Safari/534.50'
 # Enable or disable spider middlewares
 # See https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
@@ -69,8 +69,8 @@ MEDIA_ALLOW_REDIRECTS = True
 IMAGES_STORE = 'E:\\baidubar_image'
 ITEM_PIPELINES = {
    # 'lianjia.pipelines.LianjiaPipeline': 300,
-   # 'lianjia.pipelines.JsonExporterPipleline':2,
-   'lianjia.pipelines.ImageDownloadPipeline':400
+   'lianjia.pipelines.JsonExporterPipleline':2,
+   # 'lianjia.pipelines.ImageDownloadPipeline':400
 }
 IMAGES_URLS_FIELD = 'image_urls'
 IMAGES_RESULT_FIELD = "image_path"
@@ -97,7 +97,7 @@ IMAGES_EXPIRES = 90
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 import os
 import  sys
-sys.path.insert(0,"D:\aPythonProject\lianjia\lianjia")
+sys.path.insert(0,"E:\git_ToolCollection\lianjia\lianjia")
 
 
 
